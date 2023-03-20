@@ -178,9 +178,9 @@ class BackendProperties:
                 updated. If specified as a ``str``, it must be in ISO format.
             qubits (list): System qubit parameters as a list of lists of
                            :class:`Nduv` objects
-            gates (list): System gate parameters as a list of :class:`Gate`
+            gates (list): System gate parameters as a list of :class:`~.Gate`
                           objects
-            general (list): General parameters as a list of :class:`Nduv`
+            general (list): General parameters as a list of :class:`~.Nduv`
                             objects
             kwargs: optional additional fields
         """
